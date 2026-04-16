@@ -4,8 +4,8 @@ import sys
 #  CONFIG — paste your API key here
 #  Get a free key at: https://openweathermap.org/api
 # ─────────────────────────────────────────
-API_KEY = "d22494778da386322abed2ebf5d20bfb"
-BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
+API_KEY = ""
+BASE_URL = ""
 # ── Weather condition → emoji ──────────────────────────────────────────────────
 def get_weather_emoji(condition: str) -> str:
     condition = condition.lower()
